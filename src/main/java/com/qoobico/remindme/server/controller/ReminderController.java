@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/reminder")
 public class ReminderController {
 
-    @RequestMapping(value = "/get",method = RequestMethod.GET)
+    @RequestMapping(value = "/get", method = RequestMethod.GET)
     @ResponseBody
-    public String qetReminder(ModelMap model){
+    public String getReminder(ModelMap model) {
         return "My reminder";
     }
 
